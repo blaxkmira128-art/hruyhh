@@ -1,32 +1,33 @@
 {
   "name": "nexus-cloud-control",
   "version": "1.0.0",
-  "description": "Nexus Cloud single-file Node.js panel for Discord & Telegram bot hosting",
-  "main": "index.js",
+  "private": true,
+  "description": "Nexus Cloud - Node.js bot hosting control panel (Railway ready)",
+  "main": "admin_panel.js",
   "type": "commonjs",
+
   "scripts": {
-    "start": "index.js",
-    "dev": "nodemon index.js"
+    "start": "node admin_panel.js"
   },
+
   "dependencies": {
     "discord.js": "^14.15.3",
-    "node-telegram-bot-api": "^0.66.0",
-    "dotenv": "^16.3.1"
+    "node-telegram-bot-api": "^0.66.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
+
   "engines": {
-    "node": ">=18"
+    "node": ">=18.x"
   },
+
   "keywords": [
-    "bot",
+    "railway",
+    "node",
+    "hosting",
     "discord",
     "telegram",
-    "panel",
-    "hosting",
-    "railway"
+    "panel"
   ],
+
   "author": "Nexus",
   "license": "MIT"
 }
