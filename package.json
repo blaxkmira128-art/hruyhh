@@ -1,14 +1,19 @@
 {
-  "name": "nodejs-app",
+  "name": "nexus-cloud-control",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
+  "description": "Single-file Node.js bot hosting control panel (Discord / Telegram / Node)",
   "main": "index.js",
-  "author": "alphasec",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
+  "type": "commonjs",
   "scripts": {
-    "start": "node app.js"
-  }
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Nexus",
+  "license": "MIT"
 }
